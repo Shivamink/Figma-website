@@ -1,0 +1,203 @@
+#service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+#service-heading {
+  font-weight: 500;
+}
+
+#service-image {
+  width: 50vw;
+  height: 50vh;
+  margin-top: 10vh;
+}
+
+#service-data {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.vl {
+  border-left: 1px solid gray;
+  height: 80px;
+}
+
+#service-form-data {
+  height: 90vh;
+  background-color: #f5f5f5;
+  margin-top: 100px;
+}
+
+#vector1 {
+  position: relative;
+  left: 390px;
+}
+
+#vector2 {
+  position: relative;
+  top: 160px;
+}
+
+#service-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 65vh;
+}
+
+#service-text-data {
+  font-weight: bold;
+}
+
+#form-inline {
+  display: flex;
+  position: relative;
+  bottom: 55vh;
+  margin-left: 34vw;
+  margin-bottom: 5px;
+}
+
+.setLabel {
+  margin-left: 15px;
+}
+
+.setText {
+  display: block;
+}
+
+#service-email {
+  margin-left: 35vw;
+  position: relative;
+  bottom: 53vh;
+  margin-bottom: 5px;
+}
+
+.setEmail {
+  width: 35vw;
+  height: 6vh;
+}
+
+#service-textarea {
+  margin-left: 35vw;
+  position: relative;
+  bottom: 51vh;
+}
+
+.setTextarea {
+  width: 35vw;
+  height: 25vh;
+}
+
+.service-button {
+  color: white;
+  background-color: #dc7000;
+  position: relative;
+  width: 10vw;
+  left: 25vw;
+  margin-top: 4vh;
+}
+
+.setUser {
+  height: 6vh;
+  width: 17vw;
+}
+
+.service-username {
+  display: flex;
+}
+
+.setText {
+  width: 17vw;
+}
+
+#res-service-data {
+  opacity: 0;
+}
+.material-icons {
+  margin-top: 5px;
+  margin-right: 15px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 420px) {
+  #service-image {
+    width: 330px;
+    height: 167.42px;
+  }
+  #service-data {
+    display: none;
+  }
+  #res-service-data {
+    opacity: 100;
+    margin: 20px;
+    padding: 30px;
+  }
+  .service-items {
+    margin-top: 35px;
+  }
+  #service-heading {
+    text-align: center;
+    margin: 15px;
+    line-height: 1.8;
+  }
+  #service-head-parah {
+    text-align: center;
+    margin: 25px;
+    line-height: 1.2;
+  }
+  #vector1 {
+    display: none;
+  }
+  #vector2 {
+    display: none;
+  }
+  #service-form-data {
+    margin-bottom: 100px;
+    position: relative;
+  }
+  #form-group {
+    position: absolute;
+    top: 65vh;
+  }
+  #service-text {
+    bottom: 60vh;
+  }
+  #res-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .setTextarea {
+    width: 290px;
+  }
+  #service-email {
+    margin-left: 8vw;
+  }
+
+  #service-textarea {
+    margin-left: 8vw;
+  }
+  .setEmail {
+    width: 290px;
+  }
+  .setLabel {
+    margin-left: 8vw;
+  }
+  #form-inline {
+    margin-left: 0vw;
+  }
+  .setText {
+    width: 128px;
+  }
+  .service-button {
+    width: 35vw;
+    left: 40vw;
+    height: 45px;
+  }
+}

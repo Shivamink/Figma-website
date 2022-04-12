@@ -1,0 +1,143 @@
+#News-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#News-text {
+  margin-top: 10vh;
+}
+
+.News-search {
+  width: 25vw;
+  margin-top: 5vh;
+  margin-bottom: 5vw;
+}
+
+.News-input {
+  background-color: #f1f1f1;
+}
+
+#news-full-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.News-main-image {
+  width: 35vw;
+  height: 30vh;
+  margin: 35px;
+}
+
+.News-info-right-button {
+  border: none;
+  background: transparent;
+  background-color: #000;
+  color: white;
+  width: 125px;
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.News-info-text-right {
+  margin-top: 25px;
+  font-weight: 800;
+  font-size: large;
+  margin-left: 40px;
+}
+
+.News-info-text-right-data {
+  margin-top: 25px;
+  margin-left: 40px;
+  line-height: 2;
+}
+
+#News-line {
+  margin-top: 25px;
+  height: 2px;
+}
+
+#News-main-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 20px;
+}
+
+.News-data-container {
+  display: flex;
+  margin-top: 35px;
+}
+
+.News-data-info {
+  margin: 15px;
+}
+
+.News-info-button {
+  border: none;
+  background: transparent;
+  background-color: #000;
+  color: white;
+  width: 125px;
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.News-info-text {
+  margin-top: 25px;
+  font-weight: 800;
+  font-size: large;
+  margin-left: 10px;
+}
+@media screen and (max-width: 420px) {
+  #News-heading {
+    text-align: center;
+    margin: 20px;
+    line-height: 1.8;
+    font-weight: 800;
+  }
+  #News-head-parah {
+    text-align: center;
+    margin: 35px;
+    line-height: 1.2;
+  }
+  .News-search {
+    width: 85vw;
+  }
+  #news-full-container {
+    flex-direction: column;
+  }
+  .News-main-image {
+    width: 80vw;
+  }
+  .News-info-text-right {
+    margin-top: 20px;
+    margin-left: 10vw;
+    font-size: medium;
+  }
+  .res-sort {
+    display: none;
+  }
+  .News-info-text-right-data {
+    margin-right: 4vw;
+  }
+  .res-image {
+    width: 111px;
+    height: 105px;
+  }
+  .News-info-button {
+    width: 106px;
+    height: 28px;
+    margin-top: 2px;
+  }
+  .News-info-text {
+    font-size: small;
+    margin-top: 15px;
+  }
+  #News-main-left {
+    margin-bottom: 10vh;
+  }
+}
