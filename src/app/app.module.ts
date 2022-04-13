@@ -10,6 +10,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { NewsComponent } from './news/news.component';
 import { ServicePageComponent } from './service-page/service-page.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     NewsComponent,
     ServicePageComponent,
     AboutUsComponent,
+    HomePageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
