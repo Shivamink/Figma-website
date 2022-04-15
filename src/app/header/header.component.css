@@ -25,6 +25,7 @@
 }
 
 #logo-btn {
+  text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,6 +40,7 @@
 }
 
 .nav-btn {
+  text-decoration: none;
   background: transparent;
   border: none;
   color: white;
@@ -50,7 +52,29 @@
 .mobileNav {
   opacity: 0;
 }
+
+#res-navigation {
+  display: none;
+}
+
 @media screen and (max-width: 420px) {
+  #res-navigation {
+    display: block;
+    height: 220px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #dc7000;
+  }
+
+  .res-nav-btn {
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    margin: 10px;
+    color: white;
+  }
+
   #top-contact {
     display: none;
   }

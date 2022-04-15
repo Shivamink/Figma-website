@@ -616,12 +616,13 @@
   }
 
   #second-vector {
-    margin-top: 595px;
+    margin-top: 16px;
     height: 157px;
   }
 
   #first-container {
-    top: 15vh;
+    position: relative;
+    top: 12vh;
   }
 
   #first-sub2 {

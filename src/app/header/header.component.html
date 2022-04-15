@@ -6,11 +6,30 @@
 <!-- <img class="mobileNav" src="../assets/Group 1321.png" /> image to be added on responsive -->
 
 <div id="navigation">
-  <button id="logo-btn">LOGO</button>
-  <img class="mobileNav" src="../../assets/Images/Group 1321.png" />
-  <button class="nav-btn">Home</button>
-  <button class="nav-btn">About us</button>
+  <!-- <button id="logo-btn">LOGO</button> -->
+  <a id="logo-btn" routerLink="/home">LOGO</a>
+  <img
+    class="mobileNav"
+    src="../../assets/Images/Group 1321.png"
+    (click)="toggleshow()"
+  />
+  <!-- <a routerLink="/home"><button class="nav-btn">Home</button></a> -->
+  <!-- <button class="nav-btn">Home</button> -->
+  <!-- <button class="nav-btn">About us</button>
   <button class="nav-btn">Service</button>
   <button class="nav-btn">News</button>
-  <button class="nav-btn">Contact us</button>
+  <button class="nav-btn">Contact us</button> -->
+  <a class="nav-btn" routerLink="/home">Home</a>
+  <a class="nav-btn" routerLink="/about-us">About us</a>
+  <a class="nav-btn" routerLink="/service">Service</a>
+  <a class="nav-btn" routerLink="/news">News</a>
+  <a class="nav-btn" routerLink="/contact-us">Contact us</a>
+</div>
+
+<div id="res-navigation" *ngIf="show">
+  <a class="res-nav-btn" routerLink="/home">Home</a>
+  <a class="res-nav-btn" routerLink="/about-us">About us</a>
+  <a class="res-nav-btn" routerLink="/service">Service</a>
+  <a class="res-nav-btn" routerLink="/news">News</a>
+  <a class="res-nav-btn" routerLink="/contact-us">Contact us</a>
 </div>
