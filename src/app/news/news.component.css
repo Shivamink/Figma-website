@@ -6,6 +6,7 @@
 
 #News-text {
   margin-top: 10vh;
+  text-align: center;
 }
 
 .News-search {
@@ -43,7 +44,7 @@
 
 .News-info-text-right {
   margin-top: 25px;
-  font-weight: 800;
+  font-weight: 600;
   font-size: large;
   margin-left: 40px;
 }
@@ -88,7 +89,7 @@
 
 .News-info-text {
   margin-top: 25px;
-  font-weight: 800;
+  font-weight: 600;
   font-size: large;
   margin-left: 10px;
 }

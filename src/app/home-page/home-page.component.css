@@ -638,5 +638,9 @@
   #third-vector {
     display: none;
   }
+
+  #third-subContainer {
+    margin-top: -84px;
+  }
 }
 /*First container code */

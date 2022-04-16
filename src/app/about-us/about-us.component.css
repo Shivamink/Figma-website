@@ -10,7 +10,7 @@
 }
 
 #first-container-header {
-  font-weight: 900;
+  font-weight: 600;
   padding-left: 70px;
   padding-right: 70px;
   font-size: 30px;
@@ -160,7 +160,7 @@
   margin-top: 30px;
 }
 #Second-Container-Sub {
-  margin-bottom: 15vh;
+  margin-bottom: 2vh;
 }
 .colorh4 {
   color: #dc7000;
@@ -280,7 +280,6 @@
     width: 100%;
   }
   .container-image {
-    width: 360px;
     height: 339px;
   }
   .Second-Container-content {

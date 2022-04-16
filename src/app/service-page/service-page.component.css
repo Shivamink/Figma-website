@@ -20,6 +20,7 @@
   height: 15vh;
   box-shadow: 1px 2px 0 1px lightgrey;
   margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 #number-service-internal {
@@ -167,7 +168,7 @@
     margin-right: 30px;
   } */
   .box-images {
-    width: 375px;
+    /* width: 375px; */
     height: 233px;
     margin-top: 18px;
     margin-bottom: 23px;

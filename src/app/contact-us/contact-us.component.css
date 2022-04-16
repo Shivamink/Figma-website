@@ -6,7 +6,7 @@
 }
 
 #service-heading {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 #service-image {
@@ -30,7 +30,6 @@
 #service-form-data {
   height: 90vh;
   background-color: #f5f5f5;
-  margin-top: 100px;
 }
 
 #vector1 {
